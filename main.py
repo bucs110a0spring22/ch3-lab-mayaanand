@@ -39,13 +39,46 @@ for i in range(10):
 michelangelo.goto(-100,20)
 leonardo.goto(-100,-20)
 # Part B - complete part B here
+side_length = 20
+sides = 3
+angle = 360/sides
 
+for i in range(sides):
+  leonardo.down()
+  leonardo.forward(side_length)
+  leonardo.left(angle)
+leonardo.clear()
 
-side = [3, 4, 6, 9, 12] 
-length = 10
-for i in side:
-  angle = (360/side)
-    
+sides = 4
+angle = 360/sides
 
+for i in range(sides):
+  leonardo.forward(side_length)
+  leonardo.left(angle)
+leonardo.clear()
+
+sides = 6
+angle = 360/sides
+
+for i in range(sides):
+  leonardo.forward(side_length)
+  leonardo.left(angle)
+leonardo.clear()
+
+sides = 9
+angle = 360/sides
+
+for i in range(sides):
+  leonardo.forward(side_length)
+  leonardo.left(angle)
+leonardo.clear()
+
+sides = 12
+angle = 360/sides
+
+for i in range(sides):
+  leonardo.forward(side_length)
+  leonardo.left(angle)
+leonardo.clear()
 
 window.exitonclick()
